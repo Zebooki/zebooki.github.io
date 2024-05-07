@@ -1,5 +1,7 @@
 body{
     background-color:rgb(68, 16, 159);
+    padding: 0px;
+    margin: 0px;
 }
 
 #header-bg{
@@ -9,7 +11,7 @@ body{
 }
 
 .header-btn{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     width: 10rem;
     height: 2rem;
 }
