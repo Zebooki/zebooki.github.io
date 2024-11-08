@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const container = document.getElementById("chatbox");
 
     login.addEventListener("click", function() {
-        if(password.value == "a5fk"){
+        if(password.value == "as124151azsf1541"){
             document.getElementById("frame").hidden = false;
             container.hidden = true;
         }else{
