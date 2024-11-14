@@ -1,45 +1,29 @@
 body{
-  background-color:rgb(68, 16, 159);
-  padding: 0px;
-  margin: 0px;
-  overflow-x: hidden;
-  width: 98.1%;
+  overflow: hidden;
+  background-color: rgb(30, 36, 64);
   
 }
 
 
-/* CSS */
-.container {
-  text-align: center;
-  line-height: 2em; /* Set the line height to the same height as the button and input box */
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-
-
-button, input[type="text"] {
-  display: inline-block;
-  vertical-align: top;
-  font-size: 1em; /* Use em unit for font size */
-  width: 10em; /* Use em unit for width */
-  height: 2em; /* Use em unit for height */
-  margin-bottom: 1em; /* Add some margin to separate the button and input box */
-}
-
-.chatContainer{
-  background-color: black;
-  border-radius: 15px;
-  width:100%;
-  color:white;
-  margin: 1px;
-  padding:1%;
-}
-
-#user1{
+.container{
   display:flex;
-  justify-content: left ;
+  justify-content: center;
 }
-#user2{
-  display:flex;
-  justify-content: right;
-  margin-right:0px;
+
+#login{
+  margin:10px;
+  width: 100px;
+  padding:5px;
+}
+
+#password{
+  margin:10px;
 }
