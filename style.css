@@ -3,12 +3,12 @@ body{
     overflow: hidden;
 }
 #love{
-    
     font-size: xx-large;
     color: #00ff00;
     flex-wrap: wrap;
 }
 #t{
+    position:sticky;
     display:flex;
     align-items: center;
     justify-content: center;

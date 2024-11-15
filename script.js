@@ -6,5 +6,6 @@ window.addEventListener('DOMContentLoaded',function(){
             document.getElementById("love").style.color = "#00ff00";
         },325)
     },750)
+    console.log("stop snooping around...")
     
 })
