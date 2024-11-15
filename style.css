@@ -1,10 +1,11 @@
+/*I SAID STOP SNOOPING AROUND*/
 body{
     background-color: rgb(0, 0, 0);
     overflow: hidden;
 }
 #love{
     font-size: xx-large;
-    color: #00ff00;
+    color: #8400ff;
     flex-wrap: wrap;
 }
 #t{
