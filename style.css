@@ -1,3 +1,7 @@
+body{
+    background-color: gray;
+}
 #love{
     font-size: xx-large;
+    color: red;
 }
