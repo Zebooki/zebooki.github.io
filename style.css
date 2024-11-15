@@ -1,7 +1,15 @@
 body{
-    background-color: gray;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
 }
 #love{
+    
     font-size: xx-large;
-    color: red;
+    color: #00ff00;
+    flex-wrap: wrap;
+}
+#t{
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
