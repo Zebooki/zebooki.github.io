@@ -9,15 +9,18 @@ borple: 7D00FF
 }
 
 body{
+    overflow: hidden;
     margin: 0px;
     padding: 0px;
-    background-color: black;
-   /* background-image: url(./assets/blood-drip.gif);
-    background-size: cover;*/
+    background-color: rgba(0, 0, 0, 0.235);
+    background-image: url(./assets/bg.jpg);
+    background-size: cover;
+
 }
 
 
 #main{
+    font-family: goth;
     max-width: cover;
     margin: 0px;
     color: white;
@@ -25,47 +28,50 @@ body{
     0 0 10px #fff,
     0 0 21px  #7D00FF,
     0 0 42px  #7D00FF,
-    0 0 82px  #7D00FF,
-    0 0 92px  #7D00FF,
-    0 0 102px #7D00FF,
-    0 0 151px #7D00FF;
+    0 0 82px  #7D00FF;
+
 }
 
 #parent{
     width: 80%;
-    margin-top: 1%;
     height: 100%;
+    background-color: rgba(0, 0, 0, 0.584);
+    border: 6px solid !important;
+    border-image: url(./assets/gothic/menu/R_SquareFrame.png) 30 round !important;
 }
 a:visited{
+    color: rgb(255, 255, 255);
+}
+a:link{
     color: white;
 }
-
 .grid-container{
     display:grid;
     grid-template-areas:
     'rose2 word word word word word rose'
-    'skull header header header header header header'
     'navbar navbar navbar navbar navbar navbar navbar'
+    'skull header header header header right right'
     'menu main main main main right right'
-    'menu footer footer footer footer footer footer';
+    'menu main main main main footer footer';
     background-color: rgba(255, 0, 0, 0);
+    
 }
-#skull{
-    height: 100px;
-    width: 200px;
-}
-.fire{
-    width: 100px;
+.update{
+    text-wrap: nowrap;
+    font-size: 15px;
 }
 .grid-container > div{
     background-color: rgba(0, 0, 255, 0);
     text-align: center;
     font-size: 30px;
     margin: 5px;
-    border: 2px solid white;
+    border: 6px solid;
+    border-image: url(./assets/gothic/menu/R_SquareFrame.png) 30 round !important;
 }
 
 .rose{
+    display: flex;
+    justify-content: right;
     grid-area:rose;
     border: 0 !important;
     padding: 0 !important;
@@ -73,36 +79,47 @@ a:visited{
    
 }
 .rose2{
+    display: flex;
     grid-area: rose2;
     border: 0 !important;
     padding: 0 !important;
     margin: 0px !important;
+    
 }
 .word{
+    display: flex;
+    text-align: c;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
     grid-area: word;
     border: 0 !important;
     padding: 0 !important;
-    margin: 0px !important;
+    margin: 20px !important;
     font-family: goth;
-    padding-top: 25px !important;
     font-size: 50px !important;
-
 }
 .item0{
     grid-area:skull;
     border: none;
+    padding: 0px;
+    padding-top: 25px;
+    background-image: url(./assets/5362.gif);
+    background-size: cover;
+
 }
+
 .blinkie{
     margin: 0px !important;
     padding: 0px !important;
     font-size: 0px !important;
 }
 .item1{
-    
     grid-area: header;
-    padding: 5px !important;
-    font-size: 0px !important;
     gap: 0px !important;
+    padding: 0px !important;
+    font-size: 20px !important;
+
 }
 .item2{
     grid-area: menu;
@@ -118,4 +135,39 @@ a:visited{
 }
 .navbar{
     grid-area: navbar;
+    margin-top: 0px !important;
+    padding: 10px !important;
+}
+.nextTo{
+    height: 30px;
+}
+
+#dummy{
+    font-size: 15px;
+}
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    font-size: 15px;
+    
+}
+
+#copy{
+    font-family: goth;
+    color: white;
+    text-shadow: 
+    0 0 10px #fff,
+    0 0 21px  #7D00FF,
+    0 0 42px  #7D00FF,
+    0 0 82px  #7D00FF;
+    background-color: transparent;
+    cursor:pointer;
+    border-image: url(./assets/gothic/menu/R_SquareFrame.png) 30 round !important;
+    background-image: url(./assets/gothic/background/R_Square1.png);
+    background-size: cover;
+    border: 5px solid;
+    margin-bottom: 5px;
+    margin-top: 0px;
 }
