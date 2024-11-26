@@ -1,0 +1,62 @@
+/*
+    Config
+*/
+
+@font-face{
+    font-family: terminal;
+    src:url(./assets/vertopal.com_CP437_8x16.otf);
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family:'Courier New';
+    margin: 0px;
+    padding: 0px;
+
+}
+tbody{
+    width: 100vw;
+}
+
+#navbar{
+    width: 100vw;
+    font-size: 35px;
+}
+
+#main{
+    font-size: 35px;
+}
+
+#enter{
+    display:flex;
+    position:absolute;
+    bottom: 0px;
+    color: blue;
+    font-size: 35px;
+}
+
+#command{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: white;
+    background-color: transparent;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    outline: none;
+    caret-color: blue;
+    caret: block;
+}
+
+#commandRow{
+    display:flex;
+    position:absolute;
+    bottom: 0px;
+    font-size: 35px;
+    font-family: terminal;
+    left: 50px;
+}
