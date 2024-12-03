@@ -1,11 +1,32 @@
 body{
-    background-image: url("https://i.redd.it/zf4z6utfezua1.png");
-    background-size: cover;
+    background-color: #01000e;
+    background-image: url(./assets/gifs/810a57a63b4c329d35a19d07fe220aa5.gif);
+    background-size: 100vw 100vh;
+    margin: 0px !important;
+    padding: 0px;
+    color: white;
+    font-family: xmas;
 }
 
-#lightcone{
-    position:absolute;
-    left: 50%;
-    bottom: 50%;
-    width: 250px;
+@font-face{
+    font-family: xmas;
+    src: url(./assets/PWHappyChristmas.ttf);
+}
+
+#main{
+    font-size: 90px;
+}
+#hoverover{
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.509);
+    width: fit-content;
+    padding: 5px;
+}
+.smallmeme{
+    height: 200px;
+    width: 200px;
+}
+
+.smallmeme:hover{
+    transform: scale(2.2);
 }
